@@ -11,7 +11,7 @@ buttonElement.addEventListener("click", captureInput);
 function captureInput() {
   let userInput = userInputElement.value;
   let max = new Age(userInput);
-  console.log(max.ageOnMercury());
+  console.log(max.ageExpectancyMercury(), max.ageExpectancyVenus(), max.ageExpectancyJupiter(), max.ageExpectancyMars());
 }
 
 
