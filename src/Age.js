@@ -5,7 +5,7 @@ export class Age {
   }
 
   ageOnMercury() {
-    return this.age *.24
+    return this.age * 4.14
   }
   
 }
